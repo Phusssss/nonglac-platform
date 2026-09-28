@@ -1,0 +1,34 @@
+# Deps
+node_modules/
+.pnp
+.pnp.*
+
+# Env & secrets (KHÔNG commit)
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+expo/
+.expo/
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Logs & caches
+*.log
+.turbo
+.eslintcache
+
+# Mobile
+*.keystore
+*.jks
+
+# PWA / uploads local
+uploads/
